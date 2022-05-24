@@ -1,7 +1,7 @@
-def hello():
-    print("hello, ")
+# Adding parameters to the function
+def hello(to):
+    print("hello,", to)
 
 name = input("What is your name? ")
-hello()
+hello(name)
 
-print(name)
