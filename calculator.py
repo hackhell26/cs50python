@@ -1,7 +1,6 @@
 x = float(input("What's x: "))
 y = float(input("What's y: "))
 
-z = round(x + y)
+z = x / y
 
-# Formatting with "," / Result = 1,000
-print(f"{z:,}")
+print(z)
