@@ -1,7 +1,5 @@
+# Ask user for their name
 name = input("What is your name? ")
 
-"""
-is a comment
-"""
-
-print(f"hello, {name}")
+# Say hello to user
+print("hello, " + name)
