@@ -1,6 +1,6 @@
-# Counting down
-i = 3
+# Counting up
+i = 0
 
-while i != 0:
+while i < 3:
     print("meow")
-    i = i - 1 # Updating the i value after printing "meow" to not fall into a infinite loop
+    i += 1
