@@ -1,3 +1,3 @@
-# Underscore for variable names that doesn't care its value, just uses for counting
-for _ in range(3):
-    print("meow")
+# \n to add a new line after each meow printing
+# end="" eliminate the adition blank line by default the print function
+print("meow\n" * 3, end="")
