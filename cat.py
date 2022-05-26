@@ -1,3 +1,10 @@
-# \n to add a new line after each meow printing
-# end="" eliminate the adition blank line by default the print function
-print("meow\n" * 3, end="")
+# Calling the function in a variable number of times
+# Checking if "n" it is a positive number
+
+while True:
+    n = int(input("What's n? "))
+    if n > 0:
+        break
+
+for _ in range(n):
+    print("meow")
