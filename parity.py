@@ -5,11 +5,9 @@ def main():
     else:
         print("Odd")
 
-# Bool type function
+# Just returning the question withou asking "if" or "else"
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return n % 2 == 0
+
 
 main()
