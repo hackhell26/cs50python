@@ -1,10 +1,15 @@
-# Calling the function in a variable number of times
-# Checking if "n" it is a positive number
+def main():
+    number = get_number()
+    meow(number)
 
-while True:
-    n = int(input("What's n? "))
-    if n > 0:
-        break
+def get_number():
+    num = int(input("What's n? "))
+    while True:
+        if num > 0:
+            return num
 
-for _ in range(n):
-    print("meow")
+def meow(n):
+    for _ in range(n):
+        print("meow")
+
+main()
