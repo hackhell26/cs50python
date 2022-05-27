@@ -1,4 +1,4 @@
-# One dictionary per student
+# A list of dictionaries
 students = [
     {"name": "Hermione", "house:": "Gryffindor", "patronus:": "Otther"},
     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
