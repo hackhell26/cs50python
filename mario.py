@@ -1,2 +1,6 @@
 def main():
-    print_colum
+    print_column(3)
+
+
+def print_column(height):
+    
