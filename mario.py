@@ -6,15 +6,7 @@ def print_square(size):
 
     # For each row in the square
     for i in range(size):
-
-        # For each brick in row
-        for j in range(size):
-
-            # Print brick
-            print("#", end='')
-
-        print()
-
+        print("#" * size)
 
 
 main()
