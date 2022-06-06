@@ -6,12 +6,8 @@ def main():
 def get_int():
     while True:
         try:
-            x = int(input("What's x? "))
+            return int(input("What's x? "))
         except ValueError:
-            print("x is not a integer")
-        else:
-            break
-    return x
-
+            pass
 
 main()
